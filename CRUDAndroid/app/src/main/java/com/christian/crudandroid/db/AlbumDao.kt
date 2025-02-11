@@ -6,7 +6,7 @@ import androidx.room.Delete
 import androidx.room.Insert
 import androidx.room.Query
 import androidx.room.Update
-import com.christian.crudandroid.Album
+import com.christian.crudandroid.models.Album
 
 @Dao
 interface AlbumDao {
@@ -15,12 +15,12 @@ interface AlbumDao {
     fun getAllAlbums() : LiveData<List<Album>>
 
     @Insert
-    fun addAlbum(album: Album)
+    suspend fun addAlbum(album: Album)
 
     @Delete
-    fun deleteAlbum(album: Album)
+    suspend fun deleteAlbum(album: Album)
 
     @Update
-    fun updateAlbum(album: Album)
+    suspend fun updateAlbum(album: Album)
 }
 

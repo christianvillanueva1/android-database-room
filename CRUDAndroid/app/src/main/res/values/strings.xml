@@ -1,3 +1,19 @@
 <resources>
-    <string name="app_name">CRUDAndroid</string>
+    <string name="app_name">AlbumDB</string>
+    <string name="album_name">Nom</string>
+    <string name="album_singer">Cantant</string>
+    <string name="album_songs">Cançons</string>
+    <string name="button_save">Desar</string>
+    <string name="button_save_changes">Desar Canvis</string>
+    <string name="text_edit">Update album</string>
+    <string name="button_add_album">+</string>
+    <string name="button_add_new_album">Add new album</string>
+    <string name="button_edit">Editar</string>
+    <string name="button_delete">Eliminar</string>
+    <string name="button_creator_info">Info</string>
+    <string name="button_back_to_main">Tornar a la Pàgina Principal</string>
+    <string name="creator_info">Aplicació desenvolupada per Christian Villanueva Lor. Permet guardar els àlbums favorits, feta amb SQLite Room a Android Studio.</string>
+    <string name="landing_title">Welcome to AlbumsDB</string>
+    <string name="landing_subtitle">Save your favourite albums</string>
+
 </resources>

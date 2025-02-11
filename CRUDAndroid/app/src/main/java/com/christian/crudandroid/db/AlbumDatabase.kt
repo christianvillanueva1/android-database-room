@@ -1,15 +1,26 @@
 package com.christian.crudandroid.db
-
+import android.content.Context
 import androidx.room.Database
+import androidx.room.Room
 import androidx.room.RoomDatabase
-import com.christian.crudandroid.Album
+import com.christian.crudandroid.models.Album
 
-@Database(entities = [Album::class], version = 1)
+@Database(entities = [Album::class], version = 1, exportSchema = false)
 abstract class AlbumDatabase : RoomDatabase() {
-
-    companion object{
-        const val NAME = "Album_DB"
+    abstract fun albumDao(): AlbumDao
+    companion object {
+        @Volatile
+        private var INSTANCE: AlbumDatabase? = null
+        fun getDatabase(context: Context): AlbumDatabase {
+            return INSTANCE ?: synchronized(this) {
+                val instance = Room.databaseBuilder(
+                    context.applicationContext,
+                    AlbumDatabase::class.java,
+                    "album_database"
+                ).build()
+                INSTANCE = instance
+                instance
+            }
+        }
     }
-
-    abstract fun getAlbumDao() : AlbumDao
 }

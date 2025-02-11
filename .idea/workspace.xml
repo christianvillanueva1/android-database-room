@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6848f97b-0cc0-4abb-b2f8-c38f596151fd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/CRUDAndroid/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CRUDAndroid/app/src/main/java/com/christian/crudandroid/ui/adapter/AlbumAdapter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CRUDAndroid/app/src/main/java/com/christian/crudandroid/ui/fragments/AlbumFormFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CRUDAndroid/app/src/main/java/com/christian/crudandroid/ui/fragments/AlbumListFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CRUDAndroid/app/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDAndroid/app/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CRUDAndroid/gradle/libs.versions.toml" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDAndroid/gradle/libs.versions.toml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2saS1l21s0RhulLhIOQl4kz1HVa" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/alumne/Documents/android-database-room/CRUDAndroid"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6848f97b-0cc0-4abb-b2f8-c38f596151fd" name="Changes" comment="" />
+      <created>1738691979394</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1738691979394</updated>
+    </task>
+    <servers />
+  </component>
+</project>

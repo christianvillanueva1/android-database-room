@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@color/white">
+
+    <!-- Título de la página -->
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_add_new_album"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Campo para el nombre del álbum -->
+    <EditText
+        android:id="@+id/etAlbumName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/album_name"
+        android:textColor="@color/black"
+        android:padding="16dp"
+        android:inputType="text"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Campo para el cantante del álbum -->
+    <EditText
+        android:id="@+id/etAlbumSinger"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/album_singer"
+        android:textColor="@color/black"
+        android:padding="16dp"
+        android:inputType="text"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Campo para las canciones del álbum -->
+    <EditText
+        android:id="@+id/etAlbumSongs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/album_songs"
+        android:textColor="@color/black"
+        android:padding="16dp"
+        android:inputType="number"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- Botón de guardar álbum -->
+    <Button
+        android:id="@+id/btnSaveAlbum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_add_new_album"
+        android:textColor="@color/white"
+        android:background="@color/teal_200"
+        android:textSize="18sp"
+        android:padding="16dp"
+        android:elevation="4dp"
+        android:layout_marginBottom="16dp"
+        android:layout_gravity="center"/>
+
+    <!-- Botón para regresar -->
+    <Button
+        android:id="@+id/btnBackToMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_back_to_main"
+        android:textColor="@color/white"
+        android:background="@color/red"
+        android:textSize="18sp"
+        android:padding="16dp"
+        android:elevation="4dp"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
